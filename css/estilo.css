@@ -1,0 +1,139 @@
+.Uniamazonia {
+    width: 70%;
+}
+
+.titulo {
+    color: red;
+    font-size: 20px;
+}
+
+.titulo1 {
+    color: darkgreen;
+}
+
+.imagen {
+    width: 18%;
+}
+
+#piepagina {
+    margin-top: 15px;
+}
+
+.principal {
+    background-color: forestgreen;
+}
+
+#pie2 {
+    background-color: forestgreen;
+
+}
+
+@media (min-width: 600px) and (max-width: 775px) {
+    #inicio {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #noticiaprincipal {
+        display: grid;
+        background-color: #F8F7F7;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "noticia1 noticia2 "
+            "noticia3 noticia4"
+            "noticia5 noticia6"
+        ;
+    }
+
+    #NOTI1 {
+        grid-area: noticia1;
+    }
+
+    #NOTI2 {
+        grid-area: noticia2;
+    }
+
+    #NOTI3 {
+        grid-area: noticia3;
+    }
+
+    #NOTI4 {
+        grid-area: noticia4;
+    }
+
+    #NOTI5 {
+        grid-area: noticia5;
+    }
+
+    #NOTI6 {
+        grid-area: noticia6;
+    }
+
+    #piepagina {
+        background-color: chartreuse;
+    }
+
+    .menunoti,
+    .menunoticia {
+        height: 100%;
+    }
+}
+
+@media (min-width: 766px) {
+    #inicio {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #noticiaprincipal {
+        display: grid;
+        background-color: #F8F7F7;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "noticia1 noticia2 "
+            "noticia3 noticia4"
+            "noticia5 noticia6"
+        ;
+    }
+
+    #NOTI1 {
+        grid-area: noticia1;
+    }
+
+    #NOTI2 {
+        grid-area: noticia2;
+    }
+
+    #NOTI3 {
+        grid-area: noticia3;
+    }
+
+    #NOTI4 {
+        grid-area: noticia4;
+    }
+
+    #NOTI5 {
+        grid-area: noticia5;
+    }
+
+    #NOTI6 {
+        grid-area: noticia6;
+    }
+
+    .menunoti,
+    .menunoticia {
+        height: 100%;
+    }
+
+    .Uniamazonia{
+        width: 30%;
+    }
+
+    .active{
+        font-size: 20px;
+    }
+}
